@@ -454,11 +454,11 @@ input[type="submit"]:hover {
     .navbar {
         padding: 20px;
     }
-    .main-nav {
-        padding-left: 40px;
+    .rd-navbar-brand .brand {
+        font-size: 28px; /* Riduci la dimensione del testo */
     }
     .rd-navbar-nav {
-        font-size: 20px;
+        font-size: 22px; /* Riduci la dimensione del testo */
     }
     .contacts {
         font-size: 14px;
@@ -487,8 +487,11 @@ input[type="submit"]:hover {
     .navbar {
         padding: 15px;
     }
+    .rd-navbar-brand .brand {
+        font-size: 24px; /* Riduci ulteriormente la dimensione del testo */
+    }
     .rd-navbar-nav {
-        font-size: 18px;
+        font-size: 20px; /* Riduci la dimensione del testo */
     }
     .contacts {
         font-size: 12px;
@@ -523,8 +526,11 @@ input[type="submit"]:hover {
     .navbar {
         padding: 10px;
     }
+    .rd-navbar-brand .brand {
+        font-size: 20px; /* Riduci ulteriormente la dimensione del testo */
+    }
     .rd-navbar-nav {
-        font-size: 16px;
+        font-size: 18px; /* Riduci la dimensione del testo */
     }
     .contacts {
         font-size: 10px;
@@ -559,8 +565,11 @@ input[type="submit"]:hover {
     .navbar {
         padding: 5px;
     }
+    .rd-navbar-brand .brand {
+        font-size: 18px; /* Riduci la dimensione del testo per schermi più piccoli */
+    }
     .rd-navbar-nav {
-        font-size: 14px;
+        font-size: 16px; /* Riduci la dimensione del testo */
     }
     .contacts {
         font-size: 8px;
@@ -595,8 +604,11 @@ input[type="submit"]:hover {
     .navbar {
         padding: 2px;
     }
+    .rd-navbar-brand .brand {
+        font-size: 14px; /* Riduci ulteriormente la dimensione del testo */
+    }
     .rd-navbar-nav {
-        font-size: 12px;
+        font-size: 12px; /* Riduci la dimensione del testo */
     }
     .contacts {
         font-size: 6px;
