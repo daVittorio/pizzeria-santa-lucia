@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,600,700,900|Raleway:500">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ 
+</head>
+<body>
+<nav class="navbar">
+    <div class="rd-navbar-brand"><a class="brand" href="index.html"> Pizzeria Santa Lucia </div>
+    <div class="main-nav">
+        <ul class="rd-navbar-nav" style="display: flex; justify-content:space-between">
+            <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a></li>
+            <li class="rd-nav-item"><a class="rd-nav-link" href="menu.html">Menu</a></li>
+            <li class="rd-nav-item"><a href="#contacts" class="rd-nav-link" >Contatti</a></li>
+        </ul>
+    </div>
+    <div class="contacts">
+         <ul class="list-share-2">
+            <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+            <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+            <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+            <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+        </ul>
+  
+       
+    </div>
+</nav>
+<section class="swiper-container animeslide">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide animeslide-slide" style="background-image: url('images/swiper3.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="centratura">
+                        <h1 class="oh animeslide-heading" data-animate="bottom">
+                            <span class="d-inline-block">La pizza perfetta</span>
+                        </h1>
+                        <p class="big animeslide-desc" data-animate="bottom">Scopri il gusto di una pizza perfetta!</p>
+                        <a class="button button-lg button-primary button-winona button-shadow-2" href="menu.html" data-animate="bottom">Scopri il menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide animeslide-slide" style="background-image: url('images/pexels-muffin-1653877.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="centratura">>
+                        <h1 class="oh animeslidediv-heading" data-animate="bottom">
+                            <span class="d-inline-block">Ingredienti di qualità</span>
+                        </h1>
+                        <p class="big animeslide-desc" data-animate="bottom">Utilizziamo solo gli ingredienti migliori <br> per   creare pizze uniche per i nostri clienti.</p>
+                        <a class="button button-lg button-primary button-winona button-shadow-2" href="menu.html" data-animate="bottom">Scopri il menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paginazione -->
+    <div class="swiper-pagination animeslide-pagination"></div>
+
+    <!-- Navigazione -->
+    <div class="swiper-button-next animeslide-button-next"></div>
+    <div class="swiper-button-prev animeslide-button-prev"></div>
+
+    <!-- Scrollbar -->
+    <div class="swiper-scrollbar animeslide-scrollbar"></div>
+</section>
+<section class="page2" id="contacts">
+    
+        <div class="wrap">
+            <img class="responsive-img" src="images/totò.jpeg" alt="mascotte" data-aos="slide-right">
+           </div>
+          
+           <div  class="block-menu"><h1 class="cn" > contatti </h1>
+
+            <div class="scroll-menu">
+                  
+                <div class="wrap-menu" data-aos="fade-right" id="openReservationModal">
+                   <h3>prenota un tavolo</h3>
+                 </div>
+                <div class="wrap-menu" data-aos="fade-left">
+                   <h3>contatta il gestore</h3>
+                </div>
+                 
+             <div class="wrap-menu" data-aos="fade-right">
+    <h3>ordina la tua pizza</h3>
+</div>
+</div>
+<div id="reservationModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="closeReservationModal">&times;</span>
+        <h2>Prenota un Tavolo</h2>
+        <form id="reservationForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Ora:</label>
+            <input type="time" id="time" name="time" required><br>
+
+            <label for="people">Numero di persone:</label>
+            <input type="number" id="people" name="people" min="1" required><br>
+
+            <input type="submit" value="Prenota">
+        </form>
+    </div>
+</div>
+         
+              
+
+          
+    <div class="contacts" style=" display:flex; flex-direction: column; font-size: larger;      margin-right:  20px;">
+                            
+         <ul class="list-share-2">
+            <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+            <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+            <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+            <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+        </ul>
+        <ul>
+            <li>
+                <div class="unit unit-spacing-xs" style="justify-content: center;">
+                    <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
+                    <div class="unit-body"><a class="phone" href="tel:#">+1 718-999-3939</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="unit unit-spacing-xs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                    <div class="unit-body"><a class="address" target="_blank" href="https://www.google.it/maps/place/Via+Antonio+Gramsci,+24,+27051+San+Martino+Siccomario+PV/@45.1436921,9.1172915,17z/data=!3m1!4b1!4m6!3m5!1s0x478724366f430869:0xa4844c85153bdfa!8m2!3d45.1436921!4d9.1198664!16s%2Fg%2F11v0t4wqf1?entry=ttu">Via Gramsci 24, San Martino Siccomario (PV)</a></div>
+                </div>
+            </li>
+        </ul>
+       
+
+
+
+
+         </div>
+       </div>
+    
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Inizializza AOS
+        AOS.init({
+            duration: 1200, // Durata dell'animazione in millisecondi
+            easing: 'ease-in-out', // Tipo di easing dell'animazione
+            offset: 200, // Offset dell'animazione, in pixel
+            once: true, // L'animazione viene eseguita solo una volta quando l'elemento entra nella vista
+            
+        });
+         AOS.refresh();
+    </script>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+  
+
+<footer class="footer">
+<ul class="foot-wrap">
+    <li class="foot-link"> <h4> Via Gramsci 24 San Martino Siccomario (PV)</h4></li>
+    <li class="foot-link"> <h4> Privacy & Cookie Policy</h4></li>
+    <li class="foot-link"> <h4> 2024 all rights reserved</h4></li>
+    <li class="foot-link"> <h4> Credits: saaam_exe</h4></li>
+</ul>
+</footer>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="swipe.css">
+   
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
+
+</body>
+</html>
