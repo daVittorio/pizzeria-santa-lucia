@@ -1,8 +1,7 @@
-// swiper-init.js
 document.addEventListener('DOMContentLoaded', function() {
   const swiperQuiz = new Swiper(".animeslide", {
-    loop: true, 
-    speed: 900,
+    loop: false, 
+    speed: 500, // Riduzione della velocità di transizione
     centeredSlides: true,
     autoplay: {
       delay: 5000, // Cambia slide ogni 5000 millisecondi (5 secondi)
@@ -27,7 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
       enabled: true,
       onlyInViewport: false
     },
-    runCallbacksOnInit: true
+    on: {
+      init: function() {
+        // Rimuove una classe CSS dal body per cercare di evitare problemi di rendering
+        document.body.classList.remove('swiper-slide-active');
+      }
+    }
   });
 });
 
