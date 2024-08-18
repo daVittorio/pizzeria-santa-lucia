@@ -1,4 +1,73 @@
-@media (max-width: 768px){
-.rd-navbar-brand .brand{ font-size:13px; min-width: 10vh;}
-.rd-navbar-nav{ font-size: 10px;}   
- .list-share-2 .icon{ font-size: 10px;}}
+@media (max-width: 768px) {
+    .rd-navbar-brand .brand {
+        font-size: 24px; /* Riduci la dimensione del testo per schermi più piccoli */
+        color: rgb(179, 2, 2);
+    }
+
+    .main-nav {
+        padding-left: 0; /* Riduci il padding per schermi più piccoli */
+    }
+
+    .rd-navbar-nav {
+        font-size: 18px; /* Riduci la dimensione del testo per schermi più piccoli */
+        gap: 10px; /* Riduci il gap tra gli elementi del menu */
+    }
+.rd-navbar-brand a::after{ bottom: 2px;}
+
+    .navbar {
+      
+        padding: 20px; /* Riduci il padding della navbar per schermi più piccoli */
+        flex-direction: column; /* Cambia la direzione del flex per schermi più piccoli */
+        height: auto; /* Adatta l'altezza della navbar */
+       display: flex;
+       align-items: center;
+      background: linear-gradient(to right, black 10%, rgba(240, 240, 240, 0.5) 50%);
+       position:absolute;
+  
+    }
+
+    .contacts {
+        font-size: 14px; /* Riduci la dimensione del testo per schermi più piccoli */
+    }
+
+    .list-share-2 {
+   display: flex;
+   text-align: center;
+    }
+
+    .list-share-2 li {
+        margin: 5px 0; /* Aumenta il margine verticale per schermi più piccoli */
+        
+    }
+
+    .centratura {
+        margin-left: 20px; /* Riduci il margine per schermi più piccoli */
+        margin-bottom: 30px; /* Riduci il margine inferiore per schermi più piccoli */
+    }
+
+.wrap {flex-direction: column;
+        align-items: center;
+  justify-content: center;
+   padding-bottom: 5px;}
+.responsive-img{ align-items: center;
+  justify-content: center;}
+.page2 {
+  display: flex;
+  flex-direction: column; /* Disposizione verticale */
+  align-items: center; /* Allinea orizzontalmente al centro */
+   height: 100vh;
+}
+.block-menu{margin-top:  10px;}
+.wrap-menu{ height: 60px;
+ width: 350px;
+  margin: 5px;}
+
+
+}
+@media (max-width: 768px) {
+  .carta {
+    height: 100vh; /* Mantiene l'altezza al 100% della viewport anche su dispositivi mobili */
+    background-size: cover; /* Assicura che l'immagine copra l'intera area anche su schermi più piccoli */
+ 
+}
+}
