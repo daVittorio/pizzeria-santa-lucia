@@ -25,6 +25,7 @@
        position:absolute;
   
     }
+.page1 { height:100vh;}
 
     .contacts {
         font-size: 14px; /* Riduci la dimensione del testo per schermi più piccoli */
@@ -61,8 +62,11 @@
 .wrap-menu{ height: 60px;
  width: 350px;
   margin: 5px;}
-.footer{ position: fixed;
-         bottom: 0;}
+.centre-block{ display: flex;
+               flex-direction:column;
+              align-items: center;}
+.footer{ font-size: small; 
+          height: auto;}
 
 
 
