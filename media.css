@@ -61,6 +61,9 @@
 .wrap-menu{ height: 60px;
  width: 350px;
   margin: 5px;}
+.footer{ position: fixed;
+         bottom: 0;}
+
 
 
 }
