@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://davittorio.github.io/pizzeria-santa-lucia/sitemap.xml
