@@ -72,10 +72,4 @@
 
 
 }
-@media (max-width: 768px) {
-  .carta {
-    height: 100vh; /* Mantiene l'altezza al 100% della viewport anche su dispositivi mobili */
-    background-size: cover; /* Assicura che l'immagine copra l'intera area anche su schermi più piccoli */
- 
-}
-}
+
