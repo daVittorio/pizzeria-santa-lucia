@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -358,12 +358,9 @@ font-weight: 100;
 color: rgb(175, 168, 168);
 border-bottom: 2px solid rgb(175, 168, 168);;
  }
-.carta{ background-image: url(images/menu.jpg);
-           width: 100%;
-           height: 2000px;
-          background-size: cover; /* Rende l'immagine di sfondo coprente per l'intero elemento */
-}
-.footer{ 
+
+.footer{
+
 height: 80px;
 width: 100%;
  background-color: #000;
