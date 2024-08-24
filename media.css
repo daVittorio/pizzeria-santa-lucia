@@ -18,7 +18,7 @@
       
         padding: 15px; /* Riduci il padding della navbar per schermi più piccoli */
         flex-direction: column; /* Cambia la direzione del flex per schermi più piccoli */
-        height: 65px; /* Adatta l'altezza della navbar */
+        height: 90px; /* Adatta l'altezza della navbar */
        display: flex;
        align-items: center;
       background: linear-gradient(to right, black 10%, rgba(240, 240, 240, 0.5) 50%);
