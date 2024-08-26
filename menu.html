@@ -83,12 +83,12 @@
     scroll-snap-align: start; /* Allinea ogni pagina all'inizio durante lo scorrimento */
     width: 100vw; /* Larghezza viewport per coprire tutta la pagina */
 }
- @media (max-width: 768px) {.menu1, .menu2, .menu3, .menu4, .menu5 {100vh - 100px;}}
 .menu1 img, .menu2 img, .menu3 img, .menu4 img, .menu5 img {
     width: 100%;
     height: 100%;
     object-fit: contain; /* Mantiene le proporzioni dell'immagine e riempie il contenitore */
 }
+  @media (max-width: 768px) {.menu1, .menu2, .menu3, .menu4, .menu5 {height: calc(100vh - 100px);}}
 
 </style>
 </section>
